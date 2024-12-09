@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+/*ESTILIZAÇÃO CABEÇALHO*/
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(17, 16, 16);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+#logopinebank {
+    margin-left: 100px;
+    width: 220px;
+}
+
+#botoes {
+    display: flex;
+    padding-right: 100px;
+}
+
+#botaologin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: rgb(53, 50, 50);
+    border: 1px solid;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    
+    transition: background 400ms;
+}
+
+#botaologin:hover {
+    background-color: rgb(29, 27, 27);
+    transition-duration: 300ms;
+}
+
+#botaocadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+    transition: background 400ms;
+}
+
+#botaocadastro:hover{
+    background-color: rgb(197, 194, 194);
+    transition-duration: 300ms;
+}
+
+/*ESTILIZAÇÃO PARTE 1*/
+
+#parte1 {
+    width: 100%;
+    height: 1179px;
+    background-color: rgb(17, 16, 16);
+}
+
+#textoprincipal {
+    margin: auto;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 350;
+    font-size: 90px;
+
+    text-align: center;
+    padding-top: 100px;
+}
+
+#botaoabrirconta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 48px;
+    width: 300px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+    transition: background 400ms;
+}
+
+#botaoabrirconta:hover {
+    background-color: rgb(197, 194, 194);
+    transition-duration: 300ms;
+}
+
+#imagemcarro {
+    width: 100%;
+    margin-top: 60px;
+}
+
+/*ESTILIZAÇÃO PARTE 2*/
+
+#parte2 {
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgb(17, 16, 16);
+}
+
+#conteudoparte2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 142px;
+    margin-right: 142px;
+}
+
+#h1novidades {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 350;
+}
+
+#divbotoes {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 78px;
+    padding-bottom: 35px;
+}
+
+.botao {
+    font-family: 'Montserrat';
+    margin-right: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 7px 20px;
+    font-size: 12px;
+    font-weight: 540;
+    border-radius: 7px;
+
+    transition: background 400ms;
+}
+
+.botao:hover {
+    background-color: rgb(197, 194, 194);
+    transition-duration: 300ms;
+}
+
+#imagemsol {
+    width: 80%;
+    border-radius: 8px;
+}
+
+/*ESTILIZAÇÃO PARTE 3*/
+
+#parte3 {
+    background-color: rgb(17, 16, 16);
+    max-width: fit-content (100%);
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    color: white;
+    padding-top: 45px;
+}
+
+#h2legenda {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+
+#h1legenda {
+    margin: 0;
+    font-size: 155px;
+    font-weight: 350;
+    margin-bottom: 15px;
+}
+
+#h2legenda2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 350;
+}
+
+/*ESTILIZAÇÃO PARTE 4*/
+
+#parte4 {
+    padding-top: 45px;
+    padding-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(17, 16, 16);
+}
+
+#h1parte4 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 350;
+}
+
+#cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    width: 367px;
+    height: 533px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+
+.linkcard {
+    text-decoration: none;
+}
+
+.imagemlago {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(255, 166, 0);
+}
+
+.divtextos {
+    color: white;
+    font-family: 'Montserrat';
+    display: block;
+    text-align: justify;
+    padding-left: 23px;
+    padding-top: 13px;
+}
+
+.h2card {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 450;
+    margin-bottom: 20px;
+}
+
+.h3card {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.h3card2 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 140, 255);
+    margin-top: 65px;
+}
+
+#h3cardid {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 140, 255);
+    margin-top: 26px;
+}
+
+#botaoabrircontablack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 48px;
+    width: 300px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: rgb(17, 16, 16);
+    border: 1px solid white;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+    transition: background 400ms;
+}
+
+#botaoabrircontablack:hover {
+    background-color: rgb(53, 50, 50);
+    transition-duration: 300ms;
+}
+
+/*ESTILIZAÇÃO PARTE 5*/
+
+#parte5 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 130px;
+}
+
+#h1pt5 {
+    color: rgb(17, 16, 16);
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 350;
+    margin-top: 100px;
+}
+
+#botaoabrircontab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: rgb(36, 36, 36);
+    border: 1px solid white;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 100px;
+    
+    transition: background 400ms;
+}
+
+#botaoabrircontab:hover {
+    background-color: rgb(53, 50, 50);
+    transition-duration: 300ms;
+}
